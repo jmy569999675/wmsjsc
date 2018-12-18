@@ -24,7 +24,6 @@ $(".next").on("click", function () {
     play(num);
 })
 function play() {
-    console.log("start")
     clearInterval(t)
     t = setInterval(function () {
         num++;
@@ -37,7 +36,7 @@ function play() {
         $(".lis a").removeClass("active");
         $(".lis a").eq(num).addClass("active");
         $(".slide .wrap ul").css("left", -num * w + "px");
-        console.log(num)
+        // console.log(num)
     }, 2000);
     $(".slide .wrap ul").css("left", -num * w + "px")
 }
@@ -85,3 +84,54 @@ function getScrollLeft(){
 
 // 右侧固定栏动画
 $(".fixed_bar .tip").animate({left:'-78px',opacity:'1',display:'black'},1500);
+
+// DOTA轮播
+function Slide(){
+    this.num = 0;
+    this.t1=null;
+    this.play();
+    this.stop();
+    this.click1();
+}
+Slide.prototype.play = function(){
+    var that=this;
+    clearInterval(this.t1);
+    this.t1= setInterval(function(){
+        that.num++;
+        // console.log(that.num);
+        if(that.num>=$(".data .wrap .tempWrap .main").length){
+            that.num=0;
+        }
+        $(".data .title_main dl dd a").removeClass("active").eq(that.num).addClass("active");
+        $(".data .tempWrap>div").css("left",-that.num*$(".wrap .tempWrap .main").width()+"px");
+    },2000)
+    $(".data .title_main dl dd a").removeClass("active").eq(that.num).addClass("active");
+    $(".data .tempWrap>div").css("left",-that.num*$(".wrap .tempWrap .main").width()+"px");
+}
+Slide.prototype.stop=function(){
+    var that=this;
+    $(".data .tempWrap").on("mouseover",function(){
+        clearInterval(that.t1);
+    }).on("mouseout",function(){
+        that.play();
+    })
+}
+Slide.prototype.click1=function(){
+    var that=this;
+    $(".data .title_main dl dd a").on("click",function(){
+        that.num=$(this).parent().index();
+        console.log(that.num);
+        $(this).parent().find("a").addClass("active");
+        that.play();
+        // console.log($(this).parent().index())
+        // console.log(that.num);
+        // return false;
+    })
+}
+var s1 = new Slide;
+$(".login").on("click",function(){
+    $(".sign").show();
+});
+$(".sign .closebox span").on("click",function(){
+    $(".sign").hide();
+})
