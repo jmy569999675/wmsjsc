@@ -135,3 +135,15 @@ $(".login").on("click",function(){
 $(".sign .closebox span").on("click",function(){
     $(".sign").hide();
 })
+
+// 登录内的关闭窗口
+$(".sign .closebox span").on("mouseover",function(){
+    $(this).css("background-color","#da4a4d")
+}).on("mouseout",function(){
+    $(this).css("background-color","#fff")
+})
+
+// 购物车连接跳转
+$(".fixed_cart_tip").on("click",function(){
+    window.location.href="car.html";
+})

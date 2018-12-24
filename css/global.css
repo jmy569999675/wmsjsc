@@ -506,3 +506,154 @@ overflow: hidden;
 .copyright .link a {
     margin: 0 3px;
 }
+.sign{
+    position: fixed;
+    z-index: 999999;
+    left: 50%;
+    top: 50%;
+    width: 624px;
+    height: 364px;
+    margin: -223px 0 0 -312px;
+    border: 1px solid #979797;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.sign .closebox{
+    height: 50px;
+    border-top: 3px solid #dc4949;
+    background: url(https://static.games.wanmei.com/pay/sso/basic/images/c_line.png) no-repeat 572px 0;
+}
+.sign .closebox span{
+    float: right;
+    width: 46px;
+    height: 20px;
+    cursor: pointer;
+    background: url(https://static.games.wanmei.com/pay/sso/basic/images/closebox.png) no-repeat center center;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.sign .content{
+    background-color: #fff;
+    height: 311px;
+}
+.sign .content .swipecode{
+    float: left;
+    width: 264px;
+    position: relative;
+    z-index: 20000;
+}
+.sign .content .swipecode h6{
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+.sign .content .swipecode .ewm{
+    width: 130px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    font-size: 0;
+    margin: 35px auto 20px;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+.sign .content .swipecode p{
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+}
+.sign .content .swipecode p a{
+    color: #ff4c4c;
+    text-decoration: none;
+}
+.sign .content .swipecode .nline{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 1px;
+    height: 244px;
+    background-color: #dfdfdf;
+    z-index: 1;
+}
+.sign .content .userlog{
+    float: left;
+    width: 290px;
+    padding-left: 50px;
+}
+.sign .content .userlog h6{
+    color: #999;
+    font-size: 14px;
+}
+.sign .content .userlog .logobox{
+    padding-top: 35px;
+    position: relative;
+}
+.sign .content .userlog .logobox p{
+    padding-bottom: 12px;
+    position: relative;
+}
+.sign .content .userlog .logobox #username{
+    background: url(https://safestatic.games.wanmei.com/sso/basic/images/user.png) 10px center no-repeat;
+    color: #666;
+    padding-right: 30px;
+    width: 182px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 35px;
+    line-height: 40px;
+    outline: none;
+}
+.sign .content .userlog .logobox #passwd{
+    background: url(https://safestatic.games.wanmei.com/sso/basic/images/password.png) 10px center no-repeat;
+    color: #999;
+    padding-right: 10px;
+    width: 202px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 35px;
+    line-height: 40px;
+    outline: none;
+}
+.sign .content .userlog .logobox .dl1{
+    background: url(https://safestatic.games.wanmei.com/sso/basic/images/bt1.png) no-repeat;
+    width: 92px;
+    height: 36px;
+    border: 0 none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 1px 7px 2px;
+    outline: none;
+}
+.sign .content .userlog .logobox .dl2{
+    background: url(https://safestatic.games.wanmei.com/sso/basic/images/bt2.png) no-repeat;
+    width: 120px;
+    height: 36px;
+    border: 0 none;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1px 7px 2px;
+}
+.sign .content .otherpart{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.sign .content .otherpart a{
+    margin: 0 5px;
+    cursor: pointer;
+    color: #999;
+    text-decoration: none;
+    font-size: 12px;
+}
