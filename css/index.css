@@ -418,4 +418,15 @@
     background-color: #e22430;
 }
 
-
+.data .wrap .tempWrap .main .product:nth-child(3){
+    margin-right: 0 !important;
+}
+.data .wrap .tempWrap .main .product:nth-child(7){
+    margin-right: 0 !important;
+}
+.dj .wrap .tempWrap .product:nth-child(4){
+    margin-right: 0 !important;
+}
+.dj .wrap .tempWrap .product:nth-child(8){
+    margin-right: 0 !important;
+}

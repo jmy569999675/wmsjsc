@@ -1,0 +1,172 @@
+body {
+    background: url(../images/reg/bg.jpg) #ffffff center top no-repeat;
+}
+.header1 {
+    width: 818px;
+    margin: 0 auto 40px;
+    padding: 30px 0 0;
+    position: relative;
+    z-index: 10;
+    height: auto !important;
+    line-height: 35px;
+    color: #FFF !important;
+}
+.header1 .lan_tab{
+    background: url(../images/reg/rico_global.png) left center no-repeat;
+    color: #999999;
+    font-size: 14px;
+    padding-left: 22px;
+
+}
+.header1 .lan_tab a{
+    color: #999999;
+    font-size: 14px;
+}
+.header1 .lan_tab i{
+    font-style: normal;
+    padding: 0 5px;
+}
+.register{
+    position: relative;
+    z-index: 10;
+    width: 818px;
+    height: auto;
+    padding: 60px 0;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    margin: 0 auto 56px;
+}
+.register .as_wrap{
+    width: 396px;
+    background: #ffffff;
+    padding-top: 0;
+    margin: 0 auto;
+}
+.register .as_wrap .tit{
+    color: #333333;
+    line-height: 36px;
+    font-size: 34px;
+    text-shadow: none;
+    font-weight: normal;
+    margin: 0 0 10px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.register .as_wrap .vicetit{
+    color: #999999;
+    line-height: 18px;
+    margin: 0 0 34px;
+    font-size: 14px;
+    text-align: center;
+}
+.register .as_wrap .tab{
+    margin: 0 auto 30px;
+    height: auto;
+
+}
+.register .tab .cur {
+    background-color: #d72020;
+    color: #FFF;
+    font-size: 16px;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+.register .tab a{
+    font-size: 16px;
+    background-color: #e4e4e4;
+    color: #666666;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+.register .as_wrap .tabpage .ibox{
+    background: rgba(255,255,255,0.3);
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 0 24px 0 10px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 17px;
+}
+.register .as_wrap .tabpage .ibox input{
+    font-size: 14px;
+    color: #666666;
+    box-shadow: none;
+    width: 100%;
+    padding: 7px 0;
+    vertical-align: top;
+    line-height: normal;
+    background: none;
+    border: 0 none;
+    outline: none;
+}
+.vbox .vboxl{
+    width: 252px;
+    margin-right: 6px;
+}
+.vbox .vboxr{
+    width: 138px;
+}
+.vbox .vboxr a{
+    background: #f7f7f7;
+    border: 1px solid #dedede;
+    font-size: 14px;
+    color: #666666;
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    overflow: hidden;
+}
+.cbox{
+    min-height: 22px;
+    height: auto;
+    position: relative;
+    line-height: 22px;
+    margin: 17px 0 5px;
+}
+.cbox span{
+    color: #999;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 22px;
+}
+.cbox input{
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+}
+.cbox span a{
+    color: #ff5a59;
+    text-decoration: underline;
+}
+.register .as_wrap .tabpage a.rbtn_com{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.register .as_wrap .tabpage a.rbtn_s1{
+    font-size: 16px;
+    background: #ed1919;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #fff;
+    box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2), inset -1px -1px 0px rgba(255,255,255,0.2);
+}
+.register .as_wrap .tabpage form>a.rbtn_s2{
+    border: 2px solid #dbdbdb;
+    font-size: 16px;
+    color: #666666;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}

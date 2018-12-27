@@ -1,0 +1,252 @@
+.contain{
+    padding: 30px 0 40px 0;
+    background-color: #FFF;
+}
+.contain .wrap .left_box .picFocus{
+    width: 430px;
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    margin-right: 59px;
+}
+.tempWrap{
+    overflow: hidden;
+    position: relative;
+    width: 430px;
+}
+.contain .wrap .left_box .picFocus .tempWrap ul{
+    width: 430px;
+    left: 0px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.contain .wrap .left_box .picFocus .tempWrap ul li{
+    width: 430px;
+    display: block;
+}
+.picFocus .bd img {
+    width: 430px;
+    height: 430px;
+    display: block;
+}
+.picFocus .hd {
+    position: static;
+    width: 100%;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.picFocus .hd ul {
+    margin-right: -10px;
+    overflow: hidden;
+    zoom: 1;
+}
+.picFocus .hd ul li{
+    float: left;
+}
+.picFocus .hd ul li img {
+    cursor: pointer;
+    margin-right: 10px;
+}
+.picFocus .share{
+    height: 23px;
+    padding-top: 25px;
+    font-size: 14px;
+}
+.picFocus .share dl{
+    height: 16px;
+}
+.picFocus .share dl .like{
+    position: relative;
+}
+.picFocus .share dt span {
+    width: 13px;
+    display: inline-block;
+    height: 11px;
+    margin-right: 6px;
+    background: url(../images/base.png) -132px 0 no-repeat;
+}
+.picFocus .share dt font {
+    padding-left: 7px;
+    color: #9a9a9a;
+}
+.contain .wrap .right_box{
+    width: 684px;
+    font-size: 14px;
+}
+.contain .wrap .right_box h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #474747;
+    font-weight: normal;
+}
+.contain .wrap .right_box p{
+    font-style: 16px;
+    color: #666;
+}
+.contain .wrap .right_box .price{
+    padding: 20px 0;
+    margin: 34px 0 25px 0;
+    font-size: 26px;
+    color: #e90404;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+.contain .wrap .right_box th{
+    height: 48px;
+    text-align: left;
+    font-weight: normal;
+    color: #9a9a9a;
+    width: 72px;
+}
+.contain .wrap .right_box .meta .from{
+    padding-right: 5px;
+}
+.contain .wrap .right_box .meta .to{
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid #FFF;
+}
+.contain .wrap .right_box .meta .to i{
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    margin-left: 5px;
+    overflow: hidden;
+    background: url(../images/base.png) no-repeat 0 0;
+    vertical-align: middle;
+}
+.contain .wrap .right_box .meta font{
+    margin-left: 29px;
+}
+.contain .wrap .right_box .number{
+    display: inline-block;
+    width: 78px;
+    height: 22px;
+    margin-right: 11px;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+.contain .wrap .right_box .number span{
+    display: inline-block;
+    width: 18px;
+    height: 22px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.contain .wrap .right_box .number .reduce{
+    background: url(../images/base.png) no-repeat -234px -97px;
+}
+.contain .wrap .right_box .number .plus{
+    background: url(../images/base.png) no-repeat -233px -132px;
+}
+.contain .wrap .right_box .number input{
+    width: 32px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 0;
+    vertical-align: middle;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    resize: none;
+    outline: 0;
+    font-weight: normal;
+}
+.contain .wrap .right_box .stock{
+    color: #999;
+}
+.contain .wrap .right_box .sold{
+    padding-left: 15px;
+    color: #999;
+}
+.contain .wrap .right_box .sold font{
+    padding: 0 5px;
+    color: #C00;
+}
+.contain .wrap .right_box .btns{
+    padding: 20px 0 53px;
+}
+.contain .wrap .right_box .btns .buy{
+    background-color: #e32332;
+    color: #FFF;
+}
+.contain .wrap .right_box .btns .add_cart{
+    width: 258px;
+    height: 64px;
+    line-height: 64px;
+    border: 1px solid #e32330;
+    color: #ea0406;
+}
+.contain .wrap .right_box .btns .add_cart span{
+    width: 32px;
+    height: 24px;
+    display: inline-block;
+    background: url(../images/base.png) -184px -74px no-repeat;
+    margin-right: 10px;
+    vertical-align: -3px;
+}
+.contain .wrap .right_box .btns a{
+    display: inline-block;
+    width: 260px;
+    height: 66px;
+    line-height: 66px;
+    margin-right: 16px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* 介绍 */
+.introduce{
+    padding: 42px 0 40px 0;
+}
+.introduce .guess_like{
+    width: 160px;
+    padding: 0 15px 30px 15px;
+    margin-right: 20px;
+    background-color: #FFF;
+    color: #666;
+}
+.guess_like dt {
+    height: 37px;
+    padding-top: 23px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+}
+.guess_like dd{
+    padding: 15px 0 20px 0;
+    text-align: center;
+    border: 1px solid #FFF;
+}
+.introduce .details{
+    width: 980px;
+    background-color: #FFF;
+}
+.introduce .details>ul{
+    overflow: hidden;
+    zoom: 1;
+    padding: 17px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.introduce .details>ul li{
+    float: left;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+    margin-left: -1px;
+    font-size: 18px;
+    color: #666;
+}
+.introduce .details>ul li a.curr{
+    color: #e90404;
+}
+.introduce .details .content img{
+    float: left;
+}
